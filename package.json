@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.6"
+  },
+  "directories": {
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "te.js",
+  "name": "qa",
+  "scripts": {
+    "test": "mocha test/te.js"
+  },
+  "version": "1.0.0"
+}
