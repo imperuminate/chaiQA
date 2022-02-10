@@ -3,9 +3,10 @@ var should = chai.should();
 
 // chai.config.truncateThreshold = 0;
 
-// chai.config.showDiff = false; // turn off reporter diff display
-// chai.config.truncateThreshold = 0; // disable truncating
-// chai.config.includeStack = true; // turn on stack trace
+chai.config.showDiff = true; // turn off reporter diff display
+chai.config.truncateThreshold = 0; // disable truncating
+chai.config.includeStack = true; // turn on stack trace
+
 
 describe("objects", function () {
     it("should equal", function () {
